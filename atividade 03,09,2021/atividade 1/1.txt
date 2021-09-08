@@ -1,0 +1,20 @@
+1)      Faça uma função que recebe a idade de uma pessoa e retorna a informação se ela é idosa. Sabemos que uma pessoa é considerada idosa quando tem idade maior ou igual a 60 anos.
+
+
+	>function idosa( idade){
+  if (idade <60){
+   return "voce e uma pessoa novinha"}
+   else if (idade >= 60) {
+  return "voce e uma pessos idosa" }
+}
+
+
+
+2)      Faça uma função que recebe a média do aluno, e retorne se ele for aprovado ou não.
+
+ >function media( nota){
+  if (nota <7){
+   return "voce foi reprovado"}
+   else if (nota >= 7) {
+  return "voce foi aprovado" }
+}

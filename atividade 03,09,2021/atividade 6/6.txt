@@ -1,0 +1,109 @@
+Atividade de fixação
+
+
+1)      Faça uma função que recebe um parâmetros numéricos:
+
+●        Calcule o resto da divisão por 5
+
+●        Se o resto da divisão for 0, dizer que o número é dividido por 5.
+
+●        Se não, dizer que o número não é dividido por 5.
+
+
+>function resto(a){
+ if (a % 5 ==0){
+   return "numero dividido por 5"  }
+  else { return "numero nao e divisivel por 5" 
+  }
+}
+
+
+
+2)      Faça uma função que recebe o preço de 2 produtos, calcular e escrever qual é o maior preço dos dois produtos.
+
+
+>function preco( a , b ) {
+ if ( a > b ){
+   return  "a e maior"  }
+  else if  (a < b){  
+    return "b e maior" }
+}
+
+
+3)      Faça uma função que receba um valor e escreva se é positivo, negativo ou zero.
+
+
+
+> function positivo(a) {
+ if ( a > 0){
+   return  "positivo"  }
+  else if  (a < 0){  
+    return "negativo" }
+}
+
+
+4)      Faça uma função que receba o ano atual e o ano de nascimento de uma pessoa:
+
+●        Calcular a idade da pessoa;
+
+●        Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu).
+
+
+>function ano(anoatual,anonasci) {
+ if (anoatual - anonasci > 16){
+   return  "voce pode votar"  }
+  else if  (anoatual - anonasci <  16){  
+    return "voce nao pode votar" }
+}
+
+5)      As maçãs custam R$ 1,30 cada, se forem compradas menos de uma dúzia. E R$ 1,00 se forem compradas pelo menos 12. Faça uma função que receba o número de maçãs compradas, calcule e escreva o custo total da compra.
+
+
+> function frutas(a) {
+ let  a = 1.30
+  if (a  < 12 ){
+   return  "custa 1 real e 30 centavos" }
+  else if (a >= 12)  {  
+    return     "custa 1 real" }
+}
+
+
+6)      Faça uma função que recebe um valor, escreva a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10!
+
+
+
+>	function valor(a) {
+  if (a > 10){
+   return  "É MAIOR QUE 10" }
+  else if (a < 10)  {  
+    return " NÃO E MAIOR QUE 10" }
+}
+ 
+
+
+7)      Faça uma função que receba 4 (quatro) números:
+
+●        Calcule o quadrado de cada um;
+
+●        Se o valor resultante do quadrado do segundo for >= 1000, imprima-o e finalize;
+
+●        Caso contrário, imprima os valores de todos e seus respectivos quadrados.
+
+
+
+
+			>let n1 = 10
+let n2 = 5
+let n3 = 7
+let n4 = 6
+function quadrado(n1, n2, n3, n4 ) {
+
+let numero1 = n1 ** 2
+let numero2 = n2 ** 2
+let numero3 = n3 ** 2
+let numero4 = n4 ** 2
+
+if (numero2 >= 1000 ){
+  return numero2}
+  else  ( numero1, numero2, numero3, numero4 ) 
+}
